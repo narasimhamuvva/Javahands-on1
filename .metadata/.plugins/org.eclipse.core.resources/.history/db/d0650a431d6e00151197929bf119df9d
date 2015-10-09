@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+
+public class Percentage {
+	
+	int total;
+	int gmarks;
+	double percentage;
+	
+	public void calculation(int x,int y,int z,int a,int b,int c)
+	{
+		gmarks=mmarks+emarks+hmarks+smarks+somarks;
+		percentage=((gmarks*100)/total);
+	   System.out.println("percentage="+percentage);
+	   if(percentage<40)
+	   {
+		   System.out.println("poor");
+	   }
+	   if(percentage<40)
+	   {
+		   System.out.println("poor");
+	   }
+	   
+	   else if(percentage>40 && percentage<=59)
+	   {
+		   System.out.println("average");
+	   }
+	   
+	   else if(percentage>59 && percentage<=79)
+	   {
+		   System.out.println("good");
+	   }
+	   
+	   else if(percentage>79 && percentage<=89)
+	   {
+		   System.out.println("verygood");
+	   }
+	   else if (percentage>90)
+	   {
+		   System.out.println("excellent");
+	   }
+	   
+	   
+	   
+	}
+	
+	
+	
+	public static void main(String args[]){
+		
+		//Percentage pe =new Percentage(90,60,65,78,95,500);
+		//pe.calculation();
+		
+		int mmarks;
+		int emarks;
+		int hmarks;
+		int smarks;
+		int somarks;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter value for x : ");
+		mmarks = sc.nextInt();
+		
+		System.out.println("Enter value for y : ");
+		y = sc.nextInt();
+		
+	}
+}
