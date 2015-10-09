@@ -32,7 +32,7 @@ public class Percentage {
 	   {
 		   System.out.println("verygood");
 	   }
-	   else 
+	   else if (percentage>=90)
 	   {
 		   System.out.println("excellent");
 	   }
@@ -42,8 +42,6 @@ public class Percentage {
 	}
 	
 	public static void main(String args[]){
-		
-		Percentage pe=new Percentage();
 		
         Scanner sc = new Scanner(System.in);
         int mmarks;int emarks;int hmarks;int smarks;int somarks;int total;
@@ -60,7 +58,7 @@ public class Percentage {
 		somarks = sc.nextInt();
 		System.out.println("Enter total marks : ");
 		total = sc.nextInt();
-		pe.calculation(mmarks,emarks,hmarks,smarks,somarks,total);
+		calculation(mmarks,emarks,hmarks,smarks,somarks,total);
 	}
 
 }

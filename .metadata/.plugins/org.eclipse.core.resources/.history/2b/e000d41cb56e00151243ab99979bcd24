@@ -32,7 +32,7 @@ public class Percentage {
 	   {
 		   System.out.println("verygood");
 	   }
-	   else 
+	   else if (percentage>=90)
 	   {
 		   System.out.println("excellent");
 	   }
