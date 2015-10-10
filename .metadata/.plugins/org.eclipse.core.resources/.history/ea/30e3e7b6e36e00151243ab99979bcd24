@@ -32,7 +32,10 @@ public class Percentage {
 	   {
 		   System.out.println("excellent");
 	   }
-	   }
+	   
+	   
+	   
+	}
 	
 	public static void main(String args[]){
 		

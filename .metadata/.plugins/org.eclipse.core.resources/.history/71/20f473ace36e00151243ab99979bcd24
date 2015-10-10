@@ -13,6 +13,10 @@ public class Percentage {
 	   {
 		   System.out.println("poor");
 	   }
+	   if(percentage<40)
+	   {
+		   System.out.println("poor");
+	   }
 	   
 	   else if(percentage>40 && percentage<=59)
 	   {
@@ -32,7 +36,10 @@ public class Percentage {
 	   {
 		   System.out.println("excellent");
 	   }
-	   }
+	   
+	   
+	   
+	}
 	
 	public static void main(String args[]){
 		
