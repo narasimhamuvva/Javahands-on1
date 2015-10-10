@@ -1,0 +1,14 @@
+
+public class Animal {
+	public static void main(String args[]){}
+	
+
+}
+class Fish extends Animal{
+	
+}
+class Shark extends Fish{
+
+}
+
+

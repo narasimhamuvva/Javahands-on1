@@ -1,0 +1,18 @@
+
+public class Constructor {
+	
+	public Constructor(int x)
+	{
+		
+	}
+	public Constructor(float x)
+	{
+	}
+	public Constructor()
+	{
+	}
+public static void main(String args[]){
+}
+
+
+}

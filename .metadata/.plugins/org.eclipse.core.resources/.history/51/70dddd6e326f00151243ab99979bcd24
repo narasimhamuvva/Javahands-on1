@@ -1,0 +1,21 @@
+
+public class Constructor {
+	
+	public Constructor(int x)
+	{
+		
+	}
+	public Constructor(float x)
+	{
+	}
+	public Constructor()
+	{
+	}
+public static void main(String args[]){
+	Constructor c=new Constructor();
+	Constructor c=new Constructor(50);
+	Constructor c=new Constructor(50.78f);
+}
+
+
+}

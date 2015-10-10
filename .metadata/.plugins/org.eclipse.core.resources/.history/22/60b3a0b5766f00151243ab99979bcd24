@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Switchclass {
+	
+	for(int i = 0; i < teams.length; i++){
+        switch(i){
+            case 1: teams[0].setTeamName("Arsenal");
+            case 2: teams[1].setTeamName("Arsenal");
+            case 3: teams[2].setTeamName("Arsenal");
+            case 4: teams[3].setTeamName("Arsenal");
+            case 5: teams[4].setTeamName("Arsenal");
+            case 6: teams[5].setTeamName("Arsenal");
+            case 7: teams[6].setTeamName("Arsenal");
+            case 8: teams[7].setTeamName("Arsenal");
+            case 9: teams[8].setTeamName("Arsenal");
+            case 10: teams[9].setTeamName("Arsenal");
+        }
+	}
+   
+
+public static void main(String args[])
+{
+	Scanner sc = new Scanner(System.in);
+    int cardnumber;
+	
+	System.out.println("choose one card from 1 to 10 ");
+	cardnumber= sc.nextInt();
+}

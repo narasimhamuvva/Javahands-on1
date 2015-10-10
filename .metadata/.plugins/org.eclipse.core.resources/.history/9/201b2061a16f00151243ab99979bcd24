@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Switchclass {
+System.out.println("")
+	
+	
+	}
+public static void main(String args[])
+{
+	Scanner sc = new Scanner(System.in);
+    int cardnumber;
+	
+	System.out.println("choose one card from 1 to 10 ");
+	cardnumber= sc.nextInt();
+}

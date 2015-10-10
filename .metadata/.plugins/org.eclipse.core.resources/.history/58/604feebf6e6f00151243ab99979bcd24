@@ -1,0 +1,15 @@
+
+public class Animal {
+	
+	String family="Animal";
+
+}
+class Fish extends Animal{
+	String habitat="Water";
+	String Type="Aquatic";
+	
+}
+class Shark extends Fish{
+	String family="Animal";
+
+}

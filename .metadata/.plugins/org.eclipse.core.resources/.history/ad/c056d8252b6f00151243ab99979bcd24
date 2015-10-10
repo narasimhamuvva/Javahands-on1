@@ -1,0 +1,11 @@
+
+public class Switchclass {
+	int cardnumber;
+	
+	switch(cardnumber){
+	
+	case 1:
+		
+	}
+
+}
